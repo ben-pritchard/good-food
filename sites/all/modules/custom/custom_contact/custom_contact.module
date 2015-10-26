@@ -1,0 +1,16 @@
+<?php
+
+function custom_contact_form_alter(&$form, &$form_state, $form_id) {
+
+
+    if ($form_id == 'contact_site_form') {
+        // print '<pre>';
+        // print_r($form);
+        // print '</pre>';
+
+        $form['subject']['#type'] = 'hidden';
+        $form['subject']['#value'] = 'Feedback';
+        $form['copy']['#type'] = 'hidden';
+        $form['copy']['#value'] = 1;
+    }
+}

@@ -1,0 +1,5 @@
+name = My Custom Contact
+description = Custom Functions
+package = Custom
+core = 7.x
+files[] = custom_contact.module

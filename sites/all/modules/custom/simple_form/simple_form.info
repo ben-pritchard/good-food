@@ -1,0 +1,5 @@
+name = My Custom Simple Form
+description = Simplifies the forms for custom content type Recipe for non admins
+package = Custom
+core = 7.x
+files[] = simple_form.module

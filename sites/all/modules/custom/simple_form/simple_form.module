@@ -1,0 +1,16 @@
+<?php
+
+function simple_form_form_alter(&$form, &$form_state, $form_id) {
+    global $user;
+
+    if (in_array('administrator', $user->roles, true)) {
+        if ($form_id == 'recipe_node_form') {
+print '<pre>';
+print_r($form);
+print '</pre>';
+            // $form['menu']['enabled']['#access'] == FALSE;
+            // $form['menu']['enabled']['#type'] == 'hidden';
+            // unset($form['menu']);
+        }
+    }
+}

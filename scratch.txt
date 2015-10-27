@@ -1,1 +1,4 @@
 pantheon name: goodfood
+
+Things to come back to if time:
+- Use hook_form_alter to add images embedded into Preparation/Instructions fields.

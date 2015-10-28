@@ -1,0 +1,6 @@
+name = My Classic Blog
+description = My subtheme of Classic Blog
+core = 7.x
+base theme = classic_blog
+stylesheet[all][] = style.css
+stylesheet[all][] = my_classic_blog.css
